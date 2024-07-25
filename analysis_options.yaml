@@ -1,0 +1,23 @@
+include: package:flutter_lints/flutter.yaml
+
+
+linter:
+  rules:
+    always_declare_return_types: false
+    annotate_overrides: false
+    avoid_bool_literals_in_conditional_expressions: false
+    avoid_renaming_method_parameters: false
+    depend_on_referenced_packages: false
+    avoid_web_libraries_in_flutter: false
+analyzer:
+  language:
+    strict-inference: true
+    strict-raw-types: false
+  errors:
+    close_sinks: ignore
+    inference_failure_on_function_invocation: ignore
+    missing_required_param: error
+    missing_return: error
+  exclude:
+    - test/.test_coverage.dart
+    - lib/generated_plugin_registrant.dart
