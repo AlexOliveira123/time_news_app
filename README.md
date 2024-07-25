@@ -6,7 +6,7 @@ This project is a Flutter application for a news app that consumes data from [ne
 
 Make sure you have the following tools installed on your system:
 
-- [Flutter](https://flutter.dev/docs/get-started/install)
+- [Flutter 3.22.2](https://flutter.dev/docs/get-started/install)
 - [Xcode](https://developer.apple.com/xcode/) (for iOS)
 - [Android Studio](https://developer.android.com/studio) (for Android)
 
